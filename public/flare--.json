@@ -1,0 +1,118 @@
+{
+ "name": "flare",
+
+ "children": [
+
+
+
+  {
+   "name": "FRUIT",
+   "children": [
+    {"name": "RASPBERRY", "value": 1},
+    {"name": "STRAWBERRY", "value": 1},
+    {"name": "PLUM", "value": 1},
+    {"name": "APPLE","value": 1},
+    {"name": "PEACH", "value": 1},
+    {"name": "MELON","value": 1},
+    {"name": "PINEAPPLE", "value": 1},
+    {"name": "LYCHEE","value": 1},
+    {"name": "CHERRY", "value": 1}
+   ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   {
+   "name": "FLORAL",
+   "children": [
+    {"name": "ORANGE BLOSSOM", "value": 1},
+    {"name": "HONEYSUCKLE", "value": 1},
+    {"name": "ROSE ABSOLUTE", "value": 1},
+    {"name": "PEONY", "value": 1},
+    {"name": "CARNATION", "value": 1},
+    {"name": "YLANG YLANG", "value": 1},
+    {"name": "GERANIUM", "value": 1},
+    {"name": "JASMINE", "value": 1},
+    {"name": "BARNYARD", "value": 1}
+   ]
+  },
+
+
+
+
+
+
+
+
+
+  {
+   "name": "#####3######",
+   "children": [
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1}
+   ]
+  },
+
+
+
+
+
+  {
+   "name": "#####3######",
+   "children": [
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1}
+   ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+  {
+   "name": "#####10######",
+   "children": [
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1},
+    {"name": "", "value": 1}
+   ]
+  }
+
+  
+ ]
+}
