@@ -6,7 +6,7 @@ export default class ReviewCard extends React.Component {
 
     render(){
         //console.log(this.props.date)
-         const {date, name, rating, occasion, acidity_level, color, aroma, taste, region, note, price } = this.props 
+         const {name, acidity_level, aroma} = this.props 
          //console.log(this.props)
         return (
             <Card>
