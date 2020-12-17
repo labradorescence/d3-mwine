@@ -59,7 +59,6 @@ export default class ReviewForm extends React.Component {
         return (
             <div className="form">
 
-                 <img src ="https://res.cloudinary.com/devzsgipb/image/upload/v1596194143/ocy6vpyax2wiijbt7xcn.jpg" alt = "wine smell wheel"></img>
                 <h1>* S E E * S W I R L * S N I F F * S I P * S A V O R *</h1>
 
                 <br></br>
@@ -68,23 +67,23 @@ export default class ReviewForm extends React.Component {
 
                 <Form.Group widths="equal">
 
-                <Form.Input 
+                {/* <Form.Input 
                 fluid label="date"
                 placeholder="date"
                 name="date"
                 value={this.state.date}
                 onChange={this.handleInputChange}
-                />
+                /> */}
 
                 <Form.Input 
-                fluid label="name"
-                placeholder="name"
+                fluid label="wine name"
+                placeholder="wine name, type, region"
                 name="name"
                 value={this.state.name}
                 onChange={this.handleInputChange}
                 />
 
-                <Form.Input 
+                {/* <Form.Input 
                 fluid label="region"
                 placeholder="region"
                 name="region"
@@ -106,33 +105,33 @@ export default class ReviewForm extends React.Component {
                 name="color"
                 value={this.state.color}
                 onChange={this.handleInputChange}
-                />
+                /> */}
 
                 <Form.Input 
                 fluid label="aroma"
-                placeholder="aroma"
+                placeholder="peachy, musty, pungent, nutty"
                 name="aroma"
                 value={this.state.aroma}
                 onChange={this.handleInputChange}
                 />
 
-                <Form.Input 
+                {/* <Form.Input 
                 fluid label="taste"
                 placeholder="taste"
                 name="taste"
                 value={this.state.taste}
                 onChange={this.handleInputChange}
-                />
+                /> */}
 
                 <Form.Input 
                 fluid label="acidity level"
-                placeholder="acidity level"
+                placeholder="high, medium, low"
                 name="acidity_level"
                 value={this.state.acidity_level}
                 onChange={this.handleInputChange}
                 />
 
-                <Form.Input 
+                {/* <Form.Input 
                 fluid label="note"
                 placeholder="note"
                 name="note"
@@ -154,7 +153,7 @@ export default class ReviewForm extends React.Component {
                 name="rating"
                 value={this.state.rating}
                 onChange={this.handleInputChange}
-                />
+                /> */}
 
                 </Form.Group>
                 <br></br><br></br>

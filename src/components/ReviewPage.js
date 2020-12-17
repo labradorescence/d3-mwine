@@ -4,7 +4,7 @@ import ReviewForm from './ReviewForm'
 import { Container } from 'semantic-ui-react'
 import Search from './Search'
 
-export default class WinePage extends React.Component{
+export default class ReviewPage extends React.Component{
 
     state = {
         searchTerm: "low acidity",
