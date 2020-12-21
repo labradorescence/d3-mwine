@@ -1,8 +1,9 @@
 import React from 'react'
-import ReviewCollection from './ReviewCollection'
-import ReviewForm from './ReviewForm'
+// import ReviewCollection from './ReviewCollection'
+// import ReviewForm from './ReviewForm'
+// import Search from './Search'
 import { Container } from 'semantic-ui-react'
-import Search from './Search'
+
 
 export default class ReviewPage extends React.Component{
 
