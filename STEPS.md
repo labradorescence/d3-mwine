@@ -17,3 +17,6 @@ The beautiful D3 and my mwine react project both show on the browser.
 Now, edit the `public/flare.json`
 
 It took a few hours to type all the aroma but it wasn't enough so used Joshua Paul Barnard's wine wheel data and edited to this project, which also took a few hours. 
+
+
+deploy

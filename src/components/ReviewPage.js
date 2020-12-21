@@ -35,12 +35,12 @@ export default class ReviewPage extends React.Component{
         return (
             <Container>
 
-                <ReviewForm addReview={this.addReview}/>
+                {/* <ReviewForm addReview={this.addReview}/>
 
                 <ReviewCollection review={this.state.review} searchTerm={this.state.searchTerm}/>
 
                 <Search searchTerm ={this.state.searchTerm}
-                setSearchTerm = {this.handleSetSearch}/>
+                setSearchTerm = {this.handleSetSearch}/> */}
                 
                 </Container>
         )

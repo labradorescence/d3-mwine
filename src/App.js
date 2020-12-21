@@ -21,10 +21,12 @@ export default function App() {
   );
 
   return (
+
     <div className = "App">
       <h1>Hello world, let's do wine tasting with Greem Jellyfish</h1>
       <div ref={ref} />
       <ReviewPage />
     </div>
+
   );
 }
