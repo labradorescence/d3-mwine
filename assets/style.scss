@@ -1,0 +1,248 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/** navbar custom styling **/
+.navbar.navbar-custom {
+  
+  border: 0;
+  
+  background-color: #2F23AE;
+  background-image: linear-gradient(-134deg, #2F23AE  0%, #A11AD7  92%, #C86DD7  100%);
+  color: #fff;
+  height: 127px;
+  
+  padding-top: 12px;
+    
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  
+  .navbar-header {    
+    float: left !important; /** make sure to alwasy float left **/
+  }
+  
+  .navbar-brand {
+    font-weight: 900; /** make little bolder and heavier **/
+    font-size: 36px;
+  }
+  
+  .navbar-brand,
+  .navbar-nav > li > a {
+    color: #fff;
+  }
+  
+  .navbar-form {
+    margin: 0;
+    padding: 0;
+    float: right !important; /** make sure to have the form always float right **/
+    border: 0 !important; /** hide annoying border on small screens **/
+    -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    
+    .search-box {
+      position: absolute;
+      left: 100%;
+      top: 0;
+      z-index: 9999; /** insanely big z-index to display it on top **/
+      width: 100%;
+      height: 50%;
+      padding: 15px;
+      background-color: #000;
+      display: none;
+    }
+    
+    .btn,
+    .form-control {
+      background: transparent;
+      border-color: transparent;
+      padding-left: 0;
+      padding-right: 0;
+      -moz-box-shadow: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      -moz-border-radius: 0;
+      -webkit-border-radius: 0;
+      border-radius: 0;
+    }
+
+    .btn {
+      color: #ffff00;
+      font-size: 22px;
+    }
+
+    .form-control {
+      font-size: 18px;
+      color: #fff;
+      &:focus {
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-bottom: #ffff00 1px solid;
+      }
+    }
+    
+  }
+  
+  
+}
+
+/** Custom dropdown code **/
+.has-dropdown-custom {
+  position: relative;
+  z-index: 999; /** Pretty high z-index to make sure the dropdown comes on top **/
+  font-weight: 700; /** make text a little bolder **/
+  
+  > a span {
+    float: right;
+    margin-left: 10px;
+    color: #ffff00;
+  }
+  
+  > a:after {
+    content: "";
+    background-color: #ffff00;
+    height: 4px;
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    bottom: 5px;
+  }
+}
+
+.has-dropdown-custom:hover {
+  background-color: #000;
+  > a {
+    color: #fff !important;
+    &:after {
+      display: none;
+    }
+  }
+}
+.has-dropdown-custom:hover .dropdown-custom {
+  display: block;
+}
+
+.dropdown-custom {
+  list-style: none;
+  background-color: #ffff00;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 100%;
+  display: none;
+  white-space: nowrap;
+  min-width: 100%;
+  
+  &.lefter {
+    left: 0;
+    right: auto;
+  }
+  &.righter {
+    right: 0;
+    left: auto;
+  }
+  li {}
+  a {
+    display: block;
+    font-size: 14px;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #000;
+    text-decoration: none;
+    
+    &:hover {
+      color: #ffff00;
+      background-color: #000;
+    }
+  }
+}
+
+/** secondary navs */
+.navs-secondary {
+  .navbar-nav {
+    margin-left: -12px;
+    margin-right: -12px;
+    font-weight: 700;
+  }
+}
+
+/** Aminating objects **/
+.dropdown-custom a,
+.navbar.navbar-custom .navbar-form .form-control {
+  webkit-transition: all 0.5s cubic-bezier(0.17, 0.67, 0.44, 1.1) 0s;
+      -o-transition: all 0.5s cubic-bezier(0.17, 0.67, 0.44, 1.1) 0s;
+         transition: all 0.5s cubic-bezier(0.17, 0.67, 0.44, 1.1) 0s;
+}
+
+.navbar-nav-primary {
+  float: none;
+  clear: both;
+
+  > li {
+    float: left;
+    width: 50%;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .navbar.navbar-custom {
+    padding-top: 35px;
+
+    .navbar-brand {
+      font-size: 52px;
+    }
+  }
+    
+  .navbar-nav-primary {
+    clear: none;
+    
+    margin-right: 50px;
+    margin-left: 210px;
+    
+  }
+}
+@media (min-width: 992px) {
+  .navbar.navbar-custom {
+    padding-top: 20px;
+    
+    .navbar-form {
+      .search-box {
+        position: static;
+        padding: 0;
+        margin: 0;
+        background-color: transparent;
+        display: block !important;
+      }
+      
+      .form-control {
+        width: 110px;
+        &:focus {
+          width: 200px;
+        }
+      }
+    }
+    
+    
+  }
+  .navbar-nav-primary {
+    float: left;
+    margin-right: auto;
+    margin-left: auto;
+    
+    > li {
+      width: auto;
+      &.has-dropdown-custom {
+        min-width: 174px;
+      }
+    }
+    
+  }
+}
+@media (min-width: 1200px) {}
