@@ -42,7 +42,7 @@ export default function App() {
     </div>
       
       <div className = "d3">
-          <h1>Hello world, let's do wine tasting with Greem Jellyfish</h1>
+          <h1>Hello world, let's do a wine tasting</h1>
           <div ref={ref} />
           <ReviewPage />
       </div>
